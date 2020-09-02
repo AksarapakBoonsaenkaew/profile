@@ -1,0 +1,127 @@
+html{
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #e89f71;
+}
+*{
+    box-sizing: border-box;
+}
+/* .inColumn{
+    margin: 1%;
+    width: auto;
+    background-color: #ff9a76;
+   
+} */
+
+h3{
+    text-align: center;
+    font-style:initial;
+    color: #AA4A30;
+}
+
+h4{
+    color: #d57149;
+}
+
+#university, #highSchool{
+    color: gray;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.inColumnLeft-profile{
+    
+    margin: 1%;
+    width: 30%;
+    padding: 1em;
+    float: left;
+    
+    border-radius: 1em;
+    background-color: #edcfa9;
+}
+.inColumnRight{
+
+    margin: 1%;
+    width: 65%;
+    padding: 1em;
+    float: left;
+    border-radius: 1em;
+    background-color: #edcfa9;
+}
+
+
+
+.inColumnRightBottom{
+    margin: 1%;
+    width: 65%;
+    padding: 1em;
+    float: left;
+    border-radius: 1em;
+    background-color: #edcfa9;
+}
+
+table{
+    width: 100%;
+    
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+   
+}
+td {
+    width: 33%;
+}
+th {
+    color: #d57149;
+}
+
+.inColumnRightBottom i{
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.formButtom{
+    margin: 1%;
+    width: 97%;
+    padding: 1em;
+    float: left;
+    border-radius: 1em;
+    background-color: #edcfa9;
+}
+
+form {
+    margin: 20px;
+    width: auto;
+    padding: 1em;
+ 
+    border-radius: 1em;
+    background-color: #f2a07b;
+
+}
+form div+div {
+    margin-top: 1em;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+}
+form button{
+    color: white;
+    background-color: #d57149;
+    width: 20%;
+}
+input, select, button {
+    height: 30px;
+    border: 0px;
+}
+button:hover{
+    background-color: #aa4a30;
+}
